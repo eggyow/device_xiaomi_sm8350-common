@@ -153,6 +153,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/dolby/config/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml
 
+# Dolby Interface
+PRODUCT_PACKAGES += \
+    XiaomiDolby
+
 # Dolby Media Codecs Dependenices
 PRODUCT_PACKAGES += \
     libavservices_minijail_vendor \
